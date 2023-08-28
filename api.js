@@ -1,6 +1,6 @@
 
 const express =require("express");
-const conn=require("./config"); 
+const conn=require("./config");  
 const app =express();
 app.use(express.json());
 //const { error } = require('server/router');
